@@ -31,6 +31,14 @@ class Solution {
             var retAns: ListNode = ListNode(sumString[test].toInt())
         }
     }
+
+    fun getNode(ln: ListNode): ListNode {
+        if (ln.next == null) return ListNode()
+
+        val tmp_listNode = ListNode()
+
+        return getNode()
+    }
 }
 
 
